@@ -6,23 +6,26 @@ significant experience with Bison and Python.  Bison
 version 3.0 or later is required.
 
 The goal of this project is allow the use of ''Bison'' to
-generate parsers for Python.  The Gnu Bison system
+generate parsers for a variety of languages.
+The Gnu Bison system
 (http://www.gnu.org/software/bison/) is an extremely
 powerful compiler generator system.  In its recent
 incarnations, it has been extended from its original C
 orientations to support the generation of additional parsers
-in C++ and Java.  This project extends that support to
-include Python.
+in C++ and Java.
 
-Ideally, the Python support would be included in the
-standard Bison distribution. That would entail, however,
-that the Bison development team have Python experience and
-the resources to support Python. Neither of these is true,
-so this project makes Python support available independent
-of the Bison project.
+This project extends that support to new languages including:
+* Python
 
-A final note: why do this project?  The primary reason is to
-principled support for SAX parsing in python. See
+Ideally, the languages supported here would be included in
+the standard Bison distribution. That would entail, however,
+that the Bison development team have experience in those
+languages and the resources to maintain the parser
+skeletons. Neither of these is true, so this project
+provides support independent of the Bison project.
+
+Interesting per-language features:
+* Python -- principled support for SAX parsing in python. See
 https://github.com/Unidata/yax.git for a discussion of the
 ''yax'' project.
 
