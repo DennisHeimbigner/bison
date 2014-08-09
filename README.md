@@ -1,9 +1,11 @@
-bison.py
-========
+ # bison.py
 
+ ## Intro
 '''WARNING''': this document assumes the reader has
-significant experience with Bison and Python.  Bison
+significant experience with Bison. Bison
 version 3.0 or later is required.
+Experience with the language of interest (e.g. python)
+is also required.
 
 The goal of this project is allow the use of ''Bison'' to
 generate parsers for a variety of languages.
