@@ -1,6 +1,7 @@
- # bison.py
+# bison.py
 
- ## Intro
+## Intro
+
 '''WARNING''': this document assumes the reader has
 significant experience with Bison. Bison
 version 3.0 or later is required.
